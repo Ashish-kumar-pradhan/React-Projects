@@ -25,13 +25,13 @@ class CartItem extends React.Component {
     //     });
     // }
 
-    // increaseQuantity = () => {
-    //     this.setState((prevState) => {
-    //         return{
-    //         qty: prevState.qty + 1
-    //         }
-    //     });
-    // }
+    increaseQuantity = () => {
+        this.setState((prevState) => {
+            return{
+            qty: prevState.qty + 1
+            }
+        });
+    }
 
     decreaseQuantity = () => {
         const{qty} = this.state;
