@@ -32,7 +32,7 @@ class Cart extends React.Component {
 
             ]
         }
-        // this.testing();
+        
     }
 
     handleIncreaseQuantity = (product) => {

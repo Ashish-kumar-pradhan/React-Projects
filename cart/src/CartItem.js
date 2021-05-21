@@ -1,40 +1,6 @@
 import React from 'react';
 
 class CartItem extends React.Component {
-    
-
-    // testing () {
-    //     const promise = new Promise((resolve , reject) => {
-    //         setTimeout(() => {
-    //             resolve('done');
-    //         } , 5000);
-    //     })
-
-    //     promise.then(() => {
-    //         this.setState({qty: 100});
-    //         console.log('state', this.state);
-    //     });
-    // }
-
-    increaseQuantity = () => {
-        this.setState((prevState) => {
-            return{
-            qty: prevState.qty + 1
-            }
-        });
-    }
-
-    decreaseQuantity = () => {
-        const{qty} = this.state;
-        if(qty === 0) {
-            return;
-        }
-        this.setState((prevState) => {
-            return{
-            qty: prevState.qty - 1
-            }
-        });
-    }
 
     
     render() {
