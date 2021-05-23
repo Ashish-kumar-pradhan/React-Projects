@@ -9,7 +9,7 @@ import React from 'react';
                         src="https://image.flaticon.com/icons/svg/2121/2121815.svg"
                         alt="cart-icon"
                     />
-                    <span style={styles.cartCount}>3</span>
+                    <span style={styles.cartCount}> {props.count} </span>
                 </div>
             </div>
         );
